@@ -9,4 +9,5 @@ export const favoritesTable = pgTable("favorites", {
     cookTime: text("cook_time"),
     servings: text("servings"),
     createdAt: timestamp("created_at").defaultNow(),
-})
+});
+
