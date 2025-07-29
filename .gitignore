@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# README (if you want to ignore it — optional, remove if not needed)
+README.md
