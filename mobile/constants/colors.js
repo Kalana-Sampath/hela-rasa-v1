@@ -88,7 +88,10 @@ const roseGoldTheme = {
 
 const red = {
   primary: "#ec3e3efb",
-  background: "#FDF6F5",
+  dark: "#b40a0afb",
+  textDark: "#010101b9",
+  background: "#f5e8e6ff",
+  inputfield: "#ffffff",
   text: "#0a0808ff",
   border: "#F2D9D5",
   white: "#FFFFFF",
@@ -110,4 +113,4 @@ export const THEMES = {
 };
 
 // 👇 change this to switch theme
-export const COLORS = THEMES.purple;
+export const COLORS = THEMES.red;

@@ -23,8 +23,8 @@ export const authStyles = StyleSheet.create({
     alignItems: "center",
   },
   image: {
-    width: 320,
-    height: 320,
+    width: 390,
+    height: 600,
   },
   title: {
     fontSize: 28,
@@ -51,7 +51,7 @@ export const authStyles = StyleSheet.create({
     color: COLORS.text,
     paddingVertical: 16,
     paddingHorizontal: 20,
-    backgroundColor: COLORS.background,
+    backgroundColor: COLORS.inputfield,
     borderRadius: 12,
     borderWidth: 1,
     borderColor: COLORS.border,
@@ -83,11 +83,12 @@ export const authStyles = StyleSheet.create({
     paddingBottom: 20,
   },
   linkText: {
+    marginTop: 8,
     fontSize: 16,
-    color: COLORS.textLight,
+    color: COLORS.shadow,
   },
   link: {
-    color: COLORS.primary,
+    color: COLORS.dark,
     fontWeight: "600",
   },
 });
